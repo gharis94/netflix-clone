@@ -3,7 +3,7 @@ import './Banner.css';
 import axios from '../../utils/axios';
 import Request from '../../utils/Request';
 
-    
+
 const Banner = () => {
     const [movie,setMovie]=useState([]);
 
@@ -26,7 +26,7 @@ const Banner = () => {
   return (
     <div className='banner'>
         <header className='banner-header' style={{
-            backgroundImage: `url("https://image.tmdb.org/t/p/original/${movie?.backdrop_path}")`,
+            backgroundImage: `url("https://image.tmdb.org/t/p/original/${movie && movie.backdrop_path}")`,
             backgroundSize:'cover',
             backgroundPosition:'center center'
         }}>
@@ -45,7 +45,7 @@ const Banner = () => {
                 </h1>
                 
             </div>    
-            <div div className ='banner-footer' />
+            <div className ='banner-footer' />
         </header>
         
     </div>

@@ -1,12 +1,14 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import Row from '../../Components/Row/Row';
 import Nav from '../../Components/Nav/Nav';
 import Banner from '../../Components/Banner/Banner';
 import Request from '../../utils/Request';
 
 const Home = () => {
+    
     return ( 
     <div>
+        
         <Nav/>
         <Banner/>
         <Row title="Netflix orignals" fetchUrl={Request.fetchNetflixOrignals} isLarge/>
