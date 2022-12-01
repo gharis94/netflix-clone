@@ -1,0 +1,84 @@
+.auth-page{
+    position: relative;
+    background: url('https://i.blogs.es/50c5c1/netflix-catalogo/840_560.jpeg') center no-repeat;
+    background-size: cover;
+}
+.auth-background{
+    height: 100vh;
+}
+
+.auth-logo{
+    height:30px;
+    position: fixed;
+    left:10px;
+    top:10px;
+}
+
+.auth-button{
+    position: fixed;
+    right:10px;
+    top:10px;
+    padding:5px 20px;
+    background-color: #e50914;
+    color:#fff;
+    border:none;
+}
+
+.auth-gradient{
+    width: 100%;
+    z-index: 1;
+    height: 100vh;
+    background: rgba(0,0,0,.5);
+    background-image: linear-gradient(
+        rgba(0,0,0,.8)0%,
+        rgba(0,0,0,0)60%,
+        rgba(0,0,0,.8)100%
+    );
+
+}
+
+/* .auth-body{
+    position: absolute;
+    top:30%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+    z-index: 1;
+    padding: 20px;
+    color: #fff;
+    left: 0;
+    right: 0;
+}
+.auth-body>h1{
+    font-size: 2.125rem;
+    margin-bottom: 20px;
+    
+}
+
+.auth-body>h2{
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.auth-body>h3{
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+.auth-input{
+    margin-top:10px;
+}
+.auth-input>form>input{
+    width: 30%;
+    max-width:400px;
+    padding:5px 10px;
+    outline:none;
+    border: none;
+}
+.auth-input>form>button{
+    padding:5px 10px;
+    border:none;
+    color: #fff;
+    background-color: #e50914;
+    font-size: 0.8rem;
+    cursor: pointer;
+} */
