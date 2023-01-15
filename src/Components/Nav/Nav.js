@@ -21,7 +21,7 @@ const Nav = () => {
   return (
     <div className={`nav-main ${show &&'nav-black'}`}>
         <img className='nav-logo' src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1200px-Netflix_2015_logo.svg.png' alt='logo'/>
-        <Avatar onClick={()=>navigateTo('/profile')} sx={{position:'fixed',right:'10px',top:'10px',cursor:'pointer'}}/>
+        <Avatar onClick={()=>navigateTo('/profile')} sx={{position:'fixed',right:'20px',top:'10px',cursor:'pointer'}}/>
 
     </div>
   )
