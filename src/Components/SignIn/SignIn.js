@@ -34,7 +34,8 @@ const SignIn = () => {
         }else{
             console.log('Out')
             if(password===confirmPassword){
-
+                dispatch(newUserAsync(email,password))
+                setState(true)
             }else{
                 alert('Password & Confirm Password Does not match ')
             }
